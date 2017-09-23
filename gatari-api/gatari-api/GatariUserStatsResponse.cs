@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace gatari_api
 {
-    public class Class1
+    class GatariUserStatsResponse
     {
+        public int code;
+        public GatariUserStats stats;
     }
 }
